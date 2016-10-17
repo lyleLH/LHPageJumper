@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewContorller : UIViewController
-
+@interface ChatViewContorller : UIViewController
+@property (nonatomic,strong)NSString *conversationId;
 @end

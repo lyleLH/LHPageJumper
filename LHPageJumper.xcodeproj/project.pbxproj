@@ -12,8 +12,7 @@
 		987E9BCB1DB46BF7004EF3B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987E9BCA1DB46BF7004EF3B8 /* Assets.xcassets */; };
 		987E9BCE1DB46BF7004EF3B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987E9BCC1DB46BF7004EF3B8 /* LaunchScreen.storyboard */; };
 		987E9BFC1DB47DB6004EF3B8 /* UIViewController+TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E9BED1DB47DB6004EF3B8 /* UIViewController+TopViewController.m */; };
-		987E9BFD1DB47DB6004EF3B8 /* HomeViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E9BF01DB47DB6004EF3B8 /* HomeViewContorller.m */; };
-		987E9BFE1DB47DB6004EF3B8 /* HomeViewContorller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 987E9BF11DB47DB6004EF3B8 /* HomeViewContorller.xib */; };
+		987E9BFD1DB47DB6004EF3B8 /* ChatViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E9BF01DB47DB6004EF3B8 /* ChatViewContorller.m */; };
 		987E9BFF1DB47DB6004EF3B8 /* KPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E9BF31DB47DB6004EF3B8 /* KPWebViewController.m */; };
 		987E9C001DB47DB6004EF3B8 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 987E9BF51DB47DB6004EF3B8 /* ProductViewController.m */; };
 		987E9C011DB47DB6004EF3B8 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 987E9BF61DB47DB6004EF3B8 /* ProductViewController.xib */; };
@@ -31,9 +30,8 @@
 		987E9BCF1DB46BF7004EF3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987E9BEC1DB47DB6004EF3B8 /* UIViewController+TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TopViewController.h"; sourceTree = "<group>"; };
 		987E9BED1DB47DB6004EF3B8 /* UIViewController+TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TopViewController.m"; sourceTree = "<group>"; };
-		987E9BEF1DB47DB6004EF3B8 /* HomeViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewContorller.h; sourceTree = "<group>"; };
-		987E9BF01DB47DB6004EF3B8 /* HomeViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewContorller.m; sourceTree = "<group>"; };
-		987E9BF11DB47DB6004EF3B8 /* HomeViewContorller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewContorller.xib; sourceTree = "<group>"; };
+		987E9BEF1DB47DB6004EF3B8 /* ChatViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewContorller.h; sourceTree = "<group>"; };
+		987E9BF01DB47DB6004EF3B8 /* ChatViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewContorller.m; sourceTree = "<group>"; };
 		987E9BF21DB47DB6004EF3B8 /* KPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPWebViewController.h; sourceTree = "<group>"; };
 		987E9BF31DB47DB6004EF3B8 /* KPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPWebViewController.m; sourceTree = "<group>"; };
 		987E9BF41DB47DB6004EF3B8 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
@@ -43,6 +41,7 @@
 		987E9BF81DB47DB6004EF3B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		987E9BFA1DB47DB6004EF3B8 /* LHPageJumperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPageJumperManager.h; sourceTree = "<group>"; };
 		987E9BFB1DB47DB6004EF3B8 /* LHPageJumperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPageJumperManager.m; sourceTree = "<group>"; };
+		987E9C041DB4804A004EF3B8 /* JumpHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpHeaders.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +109,8 @@
 			children = (
 				987E9BF71DB47DB6004EF3B8 /* ViewController.h */,
 				987E9BF81DB47DB6004EF3B8 /* ViewController.m */,
-				987E9BEF1DB47DB6004EF3B8 /* HomeViewContorller.h */,
-				987E9BF01DB47DB6004EF3B8 /* HomeViewContorller.m */,
-				987E9BF11DB47DB6004EF3B8 /* HomeViewContorller.xib */,
+				987E9BEF1DB47DB6004EF3B8 /* ChatViewContorller.h */,
+				987E9BF01DB47DB6004EF3B8 /* ChatViewContorller.m */,
 				987E9BF21DB47DB6004EF3B8 /* KPWebViewController.h */,
 				987E9BF31DB47DB6004EF3B8 /* KPWebViewController.m */,
 				987E9BF41DB47DB6004EF3B8 /* ProductViewController.h */,
@@ -127,6 +125,7 @@
 			children = (
 				987E9BFA1DB47DB6004EF3B8 /* LHPageJumperManager.h */,
 				987E9BFB1DB47DB6004EF3B8 /* LHPageJumperManager.m */,
+				987E9C041DB4804A004EF3B8 /* JumpHeaders.h */,
 			);
 			path = LHPageJumper;
 			sourceTree = "<group>";
@@ -190,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987E9BFE1DB47DB6004EF3B8 /* HomeViewContorller.xib in Resources */,
 				987E9BCE1DB46BF7004EF3B8 /* LaunchScreen.storyboard in Resources */,
 				987E9C011DB47DB6004EF3B8 /* ProductViewController.xib in Resources */,
 				987E9BCB1DB46BF7004EF3B8 /* Assets.xcassets in Resources */,
@@ -210,7 +208,7 @@
 				987E9BC01DB46BF7004EF3B8 /* main.m in Sources */,
 				987E9BFF1DB47DB6004EF3B8 /* KPWebViewController.m in Sources */,
 				987E9BFC1DB47DB6004EF3B8 /* UIViewController+TopViewController.m in Sources */,
-				987E9BFD1DB47DB6004EF3B8 /* HomeViewContorller.m in Sources */,
+				987E9BFD1DB47DB6004EF3B8 /* ChatViewContorller.m in Sources */,
 				987E9C031DB47DB6004EF3B8 /* LHPageJumperManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

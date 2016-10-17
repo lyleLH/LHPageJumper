@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "JumpHeaders.h"
 @interface LHPageJumperManager : NSObject
 
 //根据参数字典跳转到某个控制器

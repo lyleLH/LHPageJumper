@@ -6,17 +6,18 @@
 //  Copyright © 2016年 lyle. All rights reserved.
 //
 
-#import "HomeViewContorller.h"
+#import "ChatViewContorller.h"
 
-@interface HomeViewContorller ()
+@interface ChatViewContorller ()
 
 @end
 
-@implementation HomeViewContorller
+@implementation ChatViewContorller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = [NSString stringWithFormat:@"和%@的聊天",self.conversationId];
 }
 
 - (void)didReceiveMemoryWarning {

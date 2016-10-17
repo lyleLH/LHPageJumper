@@ -10,4 +10,7 @@
 
 @interface KPWebViewController : UIViewController
 
+@property (nonatomic,strong)NSString *strUrl;
+@property (nonatomic,strong)NSString *strtitle;
+
 @end

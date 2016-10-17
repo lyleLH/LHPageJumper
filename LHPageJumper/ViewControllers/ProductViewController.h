@@ -10,4 +10,5 @@
 
 @interface ProductViewController : UIViewController
 
+@property (nonatomic,strong)NSString *productId;
 @end

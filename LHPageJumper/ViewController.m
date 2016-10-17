@@ -20,6 +20,12 @@
 
 @implementation ViewController
 
+
+
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -29,6 +35,21 @@
 }
 
 
+- (void)fakeData  {
+    
+    NSDictionary  * dic1 =  @{
+                              @"page": @"KPWebViewController",
+                              @"property": @{
+                                      @"strUrl": @"http://www.baidu.com",
+                                      @"strtitle": @"这是某个webView"
+                                      }
+                              };
+    
+}
+
+
+
+#pragma mark  -Delegate Method
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {\
     return self.dataSource.count;
 }
@@ -51,6 +72,12 @@
 
 
 
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
+#pragma mark  -  Property
 - (UITableView *)tableView {
     if(!_tableView){
         

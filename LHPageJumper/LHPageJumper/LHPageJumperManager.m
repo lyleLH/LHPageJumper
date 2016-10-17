@@ -37,6 +37,10 @@
     return self;
 }
 
++ (void)jump2Controller:(NSDictionary *)params{
+    [self jump2Controller:params popOther:YES];
+}
+
 
 + (void)jump2Controller:(NSDictionary *)params popOther:(BOOL)pop{
     

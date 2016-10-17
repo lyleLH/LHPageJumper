@@ -108,6 +108,8 @@
 		987E9BEE1DB47DB6004EF3B8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				987E9BF71DB47DB6004EF3B8 /* ViewController.h */,
+				987E9BF81DB47DB6004EF3B8 /* ViewController.m */,
 				987E9BEF1DB47DB6004EF3B8 /* HomeViewContorller.h */,
 				987E9BF01DB47DB6004EF3B8 /* HomeViewContorller.m */,
 				987E9BF11DB47DB6004EF3B8 /* HomeViewContorller.xib */,
@@ -116,8 +118,6 @@
 				987E9BF41DB47DB6004EF3B8 /* ProductViewController.h */,
 				987E9BF51DB47DB6004EF3B8 /* ProductViewController.m */,
 				987E9BF61DB47DB6004EF3B8 /* ProductViewController.xib */,
-				987E9BF71DB47DB6004EF3B8 /* ViewController.h */,
-				987E9BF81DB47DB6004EF3B8 /* ViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

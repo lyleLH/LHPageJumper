@@ -73,15 +73,18 @@
     NSString *class = manager.className;
     const char *className = [class cStringUsingEncoding:NSASCIIStringEncoding];
     
+    //根据字符串查找到一个在运行时中已经注册的类
     Class newClass = objc_getClass(className);
-    if (!newClass)
+    
+    if (!newClass)//如果这个字符串所代表的类没有找到就利用运行时接口创建一个UIViewController的子类并注册
     {
-        Class superClass = [NSObject class];
+        Class superClass = [UIViewController class];
         newClass = objc_allocateClassPair(superClass, className, 0);
         objc_registerClassPair(newClass);
     }
-    id instance = [[newClass alloc] init];
+    id instance = [[newClass alloc] init];//实例话这个根据字符串得到的新的类的对象
     
+    //为对象增加新的属性并且为其赋值
     NSDictionary *propertys = manager.property;
     [propertys enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
         if ([self checkIsExistPropertyWithInstance:instance verifyPropertyName:key]) {

@@ -84,7 +84,7 @@
     }
     id instance = [[newClass alloc] init];//实例话这个根据字符串得到的新的类的对象
     
-    //为对象增加新的属性并且为其赋值
+    //为对象已经有的属性赋值
     NSDictionary *propertys = manager.property;
     [propertys enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
         if ([self checkIsExistPropertyWithInstance:instance verifyPropertyName:key]) {
